@@ -1,0 +1,13 @@
+CONTAINER ID   IMAGE                                                            COMMAND                  CREATED        STATUS                      PORTS                    NAMES
+13e3dda58ca4   postgres:16                                                      "docker-entrypoint.s…"   2 hours ago    Up 2 hours                  0.0.0.0:5432->5432/tcp   pg-nba
+8b686486e9f0   ghcr.io/lisa086/ghcr.io/lisa086/text-evaluator-frontend:latest   "/docker-entrypoint.…"   4 months ago   Exited (0) 3 hours ago                               text-evaluator-devops-frontend-1
+2631a24e77a1   ghcr.io/lisa086/ghcr.io/lisa086/text-evaluator-backend:latest    "uvicorn app.main:ap…"   4 months ago   Exited (0) 3 hours ago                               text-evaluator-devops-backend-1
+3bbb52a36044   hello-world                                                      "/hello"                 4 months ago   Exited (0) 4 months ago                              gracious_goldwasser
+bc0642769f52   adminer                                                          "entrypoint.sh docke…"   6 months ago   Exited (0) 6 months ago                              adminer
+273b76a85079   mariadb                                                          "docker-entrypoint.s…"   6 months ago   Exited (0) 6 months ago                              mariadb
+cb51ab61249a   python:3.9-slim                                                  "bash"                   7 months ago   Exited (137) 7 months ago                            my_lab_ml-my_python_app-run-dfb47e0c89c1
+69ad7acf8961   python:3.9-slim                                                  "python Lab2.ipynb"      7 months ago   Exited (1) 7 months ago                              my_python_container
+1c10fb7554e4   postgres:13                                                      "docker-entrypoint.s…"   7 months ago   Exited (0) 7 months ago                              postgres
+50e5acf00f7a   dpage/pgadmin4                                                   "/entrypoint.sh"         7 months ago   Exited (0) 7 months ago                              pgadmin
+fa0206c5bf52   hashicorpdemoapp/product-api:v4280cf7                            "/app/product-api"       7 months ago   Exited (2) 7 months ago                              docker_compose-api-1
+cf73284978df   hashicorpdemoapp/product-api-db:v4280cf7                         "docker-entrypoint.s…"   7 months ago   Exited (0) 7 months ago                              docker_compose-db-1
