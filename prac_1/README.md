@@ -1,6 +1,7 @@
 # AI Systems Lab 1 — NBA (Docker + PostgreSQL)
 
-Автор: Lisa086y
+Развернуть PostgreSQL в Docker, загрузить данные NBA, выполнить анализ в Jupyter Notebook
+
 
 ## Docker (PostgreSQL)
 ```bash
