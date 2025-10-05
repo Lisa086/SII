@@ -18,8 +18,6 @@ engine = create_engine("postgresql+psycopg2://postgres:postgres@localhost:5432/n
 ## Docker (PostgreSQL)
 ```bash
 docker compose up -d
-# или:
-# docker run --name pg-nba -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=nba -p 5432:5432 -d postgres:16
 docker ps
 ```
 
